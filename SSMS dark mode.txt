@@ -1,0 +1,12 @@
+Click on File >> Open and navigate to the following path:
+
+C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio
+
+Step 2
+
+Open ssms.pkgundef file.
+
+Step 3
+
+Find the section “//Remove Dark theme”
+
