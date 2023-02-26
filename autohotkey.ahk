@@ -173,3 +173,16 @@ Return
 ;	Send,{Shift down}{Left 8}{Shift up}
 ;	Send, ^c
 ;Return
+
+WheelLeft::
+    Send #{Left}
+Return
+
+WheelRight::
+    Send #{Right}
+Return
+
+:*:/dt::
+    FormatTime, CurrentDateTime,,yyyy-MM-dd HH:mm
+    Send %CurrentDateTime%
+Return
